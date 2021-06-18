@@ -1,0 +1,89 @@
+/* BODY */
+body{
+    text-align: center;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 0em;
+}
+h1 {
+    font-weight: 500;
+    font-size: 3em;
+    margin: 0em;
+}
+h2 {
+    font-weight: 300;
+    font-size: 2em;
+    margin: 0em;
+}
+h4 {
+    font-weight: 100;
+    font-size: 1em;
+    margin: 1em;
+}
+/* NAV */
+nav {
+    text-align:center;
+    height:auto;
+    width: 100vw;
+    color:white;
+    padding: 0em 1em;
+    margin:0;
+    border:0;
+    background: black;
+}
+
+/* HEADER */
+.imagen {
+    width: 100vw;
+}
+
+/* SECTION DESC */
+.desc{
+    display:grid;
+    grid:auto / auto auto;
+    grid-gap:0vh 10vw;
+    padding: 3em 5em;
+    height:auto;
+    margin:0;
+    border:0;
+    text-align:left;
+    background-color: black;
+}
+.iguanita{
+    width: 35vw;
+}
+/* SECTION CAR */
+.car{
+    background-color: #1E1A13;
+    padding: 3em;
+}
+.tipo{
+    display: grid;
+    grid: auto/auto auto auto;
+    padding: 2em 5em 1em 5em;
+}
+.fotos{
+    display:grid;
+    grid: auto/auto auto auto;
+    grid-gap: 2vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+}
+.iguafin{
+    align-content:top;
+    height:25vh;
+    padding: 2em 0.1em;
+    margin-bottom: 0.2em;
+}
+footer{
+    background-color: #1E1A13;
+    padding: 1em;
+    text-decoration: none;
+    margin-bottom:0;
+}
